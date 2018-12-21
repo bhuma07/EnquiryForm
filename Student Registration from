@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h3 align="center">STUDENT REGISTRATION FORM</h3>
+
+ 
+<table align="center" cellpadding = "10">
+ 
+<tr>
+<td>STUDENT NAME</td>
+<td><input type="text" name="Student_Name" maxlength="30"/>
+</td>
+</tr>
+ 
+ <tr>
+<td>PHONE NUMBER</td>
+<td><input type="text" name="Phone_Name" maxlength="30"/>
+</td>
+</tr>
+
+ 
+<tr>
+<td>EMAIL ID</td>
+<td><input type="text" name="Email_Id" maxlength="100" /></td>
+</tr>
+ 
+<tr>
+<td>CATEGORY</td>
+<td>
+<select name="test">
+    <option hidden="true">Please select category</option>
+    <option value="graduate">Graduate</option>
+    <option value="Student">Student</option>
+    <option value="professional">Professional</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>How Did you know about Instistute</td>
+<td>
+<select name="test">
+    <option hidden="true">Choose any one</option>
+    <option value="social media">Social Media</option>
+    <option value="friends">Friends</option>
+    <option value="online">Online</option>
+     <option value="others">Others</option>
+    
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Enter OTP</td>
+<td><input type="text" name="Enter_otp" maxlength="15"/>
+</td>
+</tr>
+ 
+
+ 
+<tr>
+<td>ADDRESS <br /><br /><br /></td>
+<td><textarea name="Address" rows="4" cols="30"></textarea></td>
+</tr>
+ 
+ 
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Register">
+</td>
+</tr>
+</table>
+ 
+</form>
+</body>
+</html>
